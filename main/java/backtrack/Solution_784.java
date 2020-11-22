@@ -16,7 +16,6 @@ public class Solution_784 {
             return;
         }
         StringBuilder sb = new StringBuilder(builder);
-        System.out.println("bulider: " + builder + ", index: " + index);
         char current = chars[index];
         if (Character.isDigit(current)) {
             sb.append(current);
